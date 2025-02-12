@@ -35,6 +35,7 @@ const HomeContentSchema = new mongoose.Schema(
         {
           title: { type: String },
           iconURL: { type: String },
+          DescTitle: { type: String },
           description: { type: String },
         },
       ],
