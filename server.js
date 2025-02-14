@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 
-const allowedOrigins = ["https://your-frontend.vercel.app"];
+const allowedOrigins = ["https://dev-edge-frontend.vercel.app/"];
 
 app.use(cors({
   origin: allowedOrigins,
